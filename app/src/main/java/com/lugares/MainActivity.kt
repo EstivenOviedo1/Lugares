@@ -12,7 +12,7 @@ import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.lugares.databinding.ActivityMainBinding
-import java.security.Principal
+
 
 //import com.lugares.databinding.ActivityMainBinding
 
