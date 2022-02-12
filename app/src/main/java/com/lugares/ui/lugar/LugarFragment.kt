@@ -7,13 +7,18 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.lugares.R
+import com.lugares.adapter.LugarAdapter
 import com.lugares.databinding.FragmentLugarBinding
 import com.lugares.viewmodel.LugarViewModel
+
 
 class LugarFragment : Fragment() {
 
     private var _binding: FragmentLugarBinding? = null
-
+    private  lateinit var lugarViewModel: LugarViewModel
     // This property is only valid between onCreateView and
     // onDestroyView.
     private val binding get() = _binding!!
@@ -27,10 +32,26 @@ class LugarFragment : Fragment() {
             ViewModelProvider(this).get(LugarViewModel::class.java)
 
         _binding = FragmentLugarBinding.inflate(inflater, container, false)
-        val root: View = binding.root
+
+binding.fbAgregar.setOnClickListener{
+
+findNavController().navigate(R.id.action_nav_lugar_to_addLugarFragment)
+
+}
+
+        //Activar el RecyclerView
+
+        val lugarAdapter = LugarAdapter()
+        val reciclador = binding.reciclador
+        reciclador.adapter = lugarAdapter
+        reciclador.layoutManager = LinearLayoutManager(requireContext())
 
 
-        return root
+
+        lugarViewModel = ViewModelProvider(this)[LugarViewModel::class.java]
+        lugarViewModel.getAllData.observe(viewLifecycleOwner){lugares -> lugarAdapter.setData(lugares)}
+
+        return binding.root
     }
 
     override fun onDestroyView() {
