@@ -24,10 +24,12 @@ private  lateinit var lugarViewModel: LugarViewModel
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-      //  lugarViewModel = ViewModelProvider(this)[LugarViewModel::class.java]
+      lugarViewModel = ViewModelProvider(this)[LugarViewModel::class.java]
         _binding = FragmentAddLugarBinding.inflate(inflater, container, false)
 
-
+        binding.btAgregar.setOnClickListener{
+            addLugar();
+        }
 
         return binding.root
     }

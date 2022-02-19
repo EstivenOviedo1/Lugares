@@ -28,4 +28,12 @@
     <string name="msg_web">Sitio WEB</string>
     <string name="bt_agregar">Agregar</string>
 
+
+
+    <string name="bt_actualizar">Actualizar</string>
+    <string name="menu_delete">Eliminar Lugar</string>
+    <string name="si">Si</string>
+    <string name="msg_seguro_borrar">Esta seguro de borrar ?</string>
+    <string name="no">No</string>
+
 </resources>
