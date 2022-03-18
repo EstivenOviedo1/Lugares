@@ -84,7 +84,7 @@ var altura = binding.tvAltura.text.toString().toDouble()
 
 
 
-            var lugar = Lugar(0,nombre,correo,telefono,web,latitud,longitud,altura,"","")
+            var lugar = Lugar("",nombre,correo,telefono,web,latitud,longitud,altura,"","")
           lugarViewModel.addLugar(lugar)
             Toast.makeText(requireContext(),"Lugar Agregado",Toast.LENGTH_SHORT).show()
 

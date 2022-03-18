@@ -92,7 +92,7 @@ binding.btActualizar.setOnClickListener{
         val telefono = binding.etCorreo.text.toString()
         if(telefono.isNotEmpty()){
             val intento = Intent(Intent.ACTION_CALL)
-intento.data = Uri.parse("tel:$telefono")
+           intento.data = Uri.parse("tel:$telefono")
             if (requireActivity().checkSelfPermission(android.Manifest.permission.CALL_PHONE) !=
                         PackageManager.PERMISSION_GRANTED){
 requireActivity().requestPermissions(arrayOf(android.Manifest.permission.CALL_PHONE), 105)

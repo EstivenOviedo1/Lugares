@@ -52,4 +52,16 @@
     <string name="msg_mensaje_correo">Le escribo este correo para</string>
     <string name="msg_datos">Faltan datos</string>
     <string name="error">Error</string>
+
+
+
+    <string name="msg_firebase_Add">Lugar agregado</string>
+    <string name="msg_firebase_Update">Lugar modificado</string>
+    <string name="msg_firebase_delete">Lugar eliminado</string>
+    <string name="msg_firebase_no_Add">ERROR: Lugar no agregado</string>
+    <string name="msg_firebase_no_Update">ERROR: Lugar no actualizado</string>
+    <string name="msg_firebase_no_delete">ERROR: Lugar no eliminado</string>
+
+
+
 </resources>
