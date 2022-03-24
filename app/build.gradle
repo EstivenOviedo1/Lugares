@@ -20,7 +20,7 @@ android {
     compileSdk 32
 
     defaultConfig {        applicationId "com.lugares"
-        minSdk 24
+        minSdk 26
         targetSdk 32
         versionCode 1
         versionName "1.0"
@@ -63,6 +63,7 @@ dependencies {
 
 
     implementation 'com.google.firebase:firebase-firestore-ktx'
+    implementation 'com.google.firebase:firebase-storage-ktx'
 
 
     // Se agregan librerias para poder utilizar antotanciones en lugar y demas
