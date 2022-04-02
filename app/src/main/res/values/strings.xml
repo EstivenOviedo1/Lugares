@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Lugares</string>
+    <string name="app_name" translatable="false">Lugares_v</string>
     <string name="tv_correo">Correo</string>
     <string name="tv_clave">Contraseña</string>
 
@@ -7,8 +7,8 @@
     <string name="title_activity_principal">Principal</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -21,19 +21,19 @@
 
 
 
-    <string name="msg_nombre">Nombre del lugar</string>
+    <string name="msg_nombre" translatable="false">Nombre del lugar</string>
     <string name="msg_correo">Correo (xxxx@abc.com)</string>
-    <string name="msg_im">Imagen del lugar (xxxx@abc.com)</string>
-    <string name="msg_telefono">Telefono (9999-9999)</string>
-    <string name="msg_web">Sitio WEB</string>
-    <string name="bt_agregar">Agregar</string>
+    <string name="msg_im" translatable="false"> Imagen del lugar (xxxx@abc.com)</string>
+    <string name="msg_telefono" translatable="false"> Telefono (9999-9999)</string>
+    <string name="msg_web" translatable="false">Sitio WEB</string>
+    <string name="bt_agregar" translatable="false">Agregar</string>
 
 
 
-    <string name="bt_actualizar">Actualizar</string>
+    <string name="bt_actualizar" translatable="false">Actualizar</string>
     <string name="menu_delete">Eliminar Lugar</string>
     <string name="si">Si</string>
-    <string name="msg_seguro_borrar">Esta seguro de borrar ?</string>
+    <string name="msg_seguro_borrar" translatable="false">Esta seguro de borrar ?</string>
     <string name="no">No</string>
 
 
@@ -55,11 +55,11 @@
 
 
 
-    <string name="msg_firebase_Add">Lugar agregado</string>
-    <string name="msg_firebase_Update">Lugar modificado</string>
-    <string name="msg_firebase_delete">Lugar eliminado</string>
-    <string name="msg_firebase_no_Add">ERROR: Lugar no agregado</string>
-    <string name="msg_firebase_no_Update">ERROR: Lugar no actualizado</string>
+    <string name="msg_firebase_Add" translatable="false">Lugar agregado</string>
+    <string name="msg_firebase_Update" translatable="false">Lugar modificado</string>
+    <string name="msg_firebase_delete" translatable="false">Lugar eliminado</string>
+    <string name="msg_firebase_no_Add" translatable="false">ERROR: Lugar no agregado</string>
+    <string name="msg_firebase_no_Update" translatable="false">ERROR: Lugar no actualizado</string>
     <string name="msg_firebase_no_delete">ERROR: Lugar no eliminado</string>
 
 
@@ -70,11 +70,15 @@
     <string name="msg_rec_stop_nota">Graba o detiene nota de audio</string>
     <string name="msg_take_photo">Toma foto</string>
     <string name="msg_rotate_l">Rota  izquierda</string>
-    <string name="msg_rotate_r">Rota derecha</string>
+    <string name="msg_rotate_r" translatable="false">Rota derecha</string>
     <string name="msg_graba_audio">Grabando nota de audio</string>
     <string name="msg_detener_audio">Nota de audio detenido</string>
     <string name="msg_subiendo_audio">Subiendo Nota Audio</string>
     <string name="msg_subiendo_imagen">Subiendo imagen</string>
+
+
+
+  <string name="default_web_client_id_r" translatable="false">858357630538-qika19ilafhbkhbhv0n6i0ikpscpfa43.apps.googleusercontent.com</string>
 
 
 
